@@ -11,6 +11,8 @@ Features;
 - Doesnt effect other "dumpster search" systems as this is for the bigger, open dumpsters
 - Set different rarity of found items
 - Cooldown on finding items
+- Synced particle effects
+- Wacky animations
 - Compatible with ox_target, qtarget and qb-target!
 
 Supports ESX and QB!
