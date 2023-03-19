@@ -4,6 +4,7 @@ PREVIEW: COMING SOON...
 SUPPORT & UPDATES: https://discord.gg/pJXc2yzzqT
 
 Envi-DumpsterDive is a simple FiveM resource designed to give a new take on Dumpster seaching!
+
 Unleash your inner Hobo and get down and dirty as you search for some rare items.
 
 Features;
