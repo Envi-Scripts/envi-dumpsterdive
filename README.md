@@ -1,7 +1,8 @@
 # envi-dumpsterdive
-PREVIEW: COMING SOON...
 
 SUPPORT & UPDATES: https://discord.gg/pJXc2yzzqT
+
+PREVIEW: https://www.youtube.com/watch?v=8Bh8c0pBKDk
 
 Envi-DumpsterDive is a simple FiveM resource designed to give a new take on Dumpster seaching!
 
