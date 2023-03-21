@@ -20,7 +20,6 @@ RegisterNetEvent('envi-dumpsterdive:goDiving', function(entity)
     local pos = GetEntityCoords(ped)
     local heading = GetEntityHeading(ped)
     local items_found = false
-    if not DoesEntityExist(entity) then return end
     if not diving or searching then
         searching = true
         LoadAnimDict('missexile3')
@@ -42,8 +41,7 @@ RegisterNetEvent('envi-dumpsterdive:goDiving', function(entity)
         if not onCooldown then
             local luck = math.random(1, 20)
             if luck >= 8 then
-                local netId = NetworkGetNetworkIdFromEntity(entity)
-                if netId ~= 0 then
+                if DoesEntityExist(entity) then
                     TriggerServerEvent('envi-dumpsterdive:rewards', luck)
                    onCooldown = true
                     SetTimeout(Config.Cooldown * 1000, function()
